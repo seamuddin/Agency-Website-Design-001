@@ -1,0 +1,16 @@
+*Home Page
+   *Menu
+    *Header
+      *Client
+         *Service
+             -Service
+             -Ready made Software
+           *Domain Search
+           *About Us
+           *Portfolio
+           *Testimonial
+           *Partners
+           *Blog
+           *Facts
+           *Email Sub & Contact
+           *Footer

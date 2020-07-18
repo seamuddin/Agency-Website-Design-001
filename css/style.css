@@ -1,0 +1,440 @@
+ @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=PT+Sans&display=swap');
+
+ html {
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.4;
+    background: #fff;
+    position: relative;
+      font-family: 'PT Sans', sans-serif;
+}
+.def-color
+{
+  color: tomato;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+    line-height: 1.45;
+    color: rgba(36, 33, 33, 0.726)141, 135, 135);
+    font-weight: bold;
+}
+.h6
+{
+  line-height: 1.45;
+    color: rgba(36, 33, 33, 0.726)141, 135, 135);
+    font-weight: bold;
+    font-size: 1.3rem!important;}
+.h7
+{
+  
+    color: rgba(36, 33, 33, 0.726)141, 135, 135);
+    font-weight: bold;
+    font-size: 2rem!important;
+}
+
+.p1
+{
+  font-size: 1rem;
+}
+.mt-6
+{
+  margin-top: 4rem;
+
+}
+.pt-6
+{
+  padding-top: 5rem;
+}
+.nav-link
+{
+	display: inline;
+}
+.logo
+{
+	margin-left: 20px;
+}
+.border-btn
+{
+	border: 2px solid tomato!important;
+}
+.font ul 
+{
+	margin-right: 40px;
+}
+.font ul li a {
+
+	font-weight: 600;
+    margin-left: 10px;
+    float: left;
+	
+}
+
+.font ul li a:hover
+
+{
+	color: tomato!important;
+	display: inline-block;
+}
+.underline{
+       
+    
+      display: inline-block;
+       width: 100%;
+    
+    background-color: tomato;
+    height: 3px;
+    opacity: 0;
+
+   
+    margin: 0 auto;
+    float: left;
+    margin-top: 5px;
+}
+.font ul li a:hover .underline
+{
+   opacity: 1;
+
+   animation-name: underline;
+   animation-duration: 0.3s;
+}
+
+@keyframes underline
+{
+	0%{width: 0;}
+	100%{width: 100%;}
+
+}
+.active
+{
+  color: tomato!important;
+  display: inline-block;
+}
+#service-section
+{
+
+}
+.card-title
+{
+  height: 1.7rem;
+  margin-bottom: 4px;
+  display: inline-block;
+}
+.card-text
+{
+  height: 7.3rem;
+  overflow: hidden; 
+  margin-top: 10px;
+}
+.service-card-text
+{
+  font-size: 1rem;
+  font-family: 'PT Sans', sans-serif;
+}
+.service-card-border
+{
+ overflow: hidden;
+}
+.service-card-border:hover
+{
+  border: 1px solid tomato;
+   box-shadow: 0 .5rem 1rem rgba(255, 124, 77, 0.65)!important;
+  cursor: pointer;
+}
+.service-icon-color
+{
+  color: tomato!important;
+}
+.service-btn-color
+{
+  background-color: tomato;
+  border-color: tomato;
+  display: inline;
+  color: white;
+}
+.service-btn-color:hover
+{
+  background-color: #E75A41;
+  border-color: tomato;
+  color: white;
+
+}
+.readymade-service
+{
+   box-shadow: 0rem .2rem .9rem .2rem rgba(255, 165, 133, 0.61)!important;
+}
+.readymade-service p
+{
+   font-size: 1.3rem;
+
+   font-family: 'PT Sans', sans-serif;
+   display: inline-block;
+   text-align: center;
+
+
+   
+}
+.service-card-img
+{
+  overflow: hidden;
+  
+}
+.service-card-img img
+{
+
+   width: 80%;
+  transition:  width 0.4s;
+  transition-timing-function: linear;
+}
+.service-card-img img:hover
+{
+  width: 85%;
+  
+}
+.service-card-badge
+{
+  background-color: tomato;
+  width: 100%;
+}
+.service-card-badge-title
+{
+  font-size: 1.3rem;
+  padding: 5px;
+  color: white;
+  font-weight: 100;
+
+  font-family: 'Mukta', sans-serif;
+}
+
+.search-box
+{
+  
+}
+input[type="text"]
+{
+  height: 3rem;
+}
+#domain-search
+{
+  overflow: hidden;
+}
+.domain-search
+{
+  
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+   background-size: 100% 100%;
+}
+.domain-search-title
+{
+  color: white;
+}
+.domain-search-btn
+{
+  background-color: #C021B3;
+  border: 3px solid white;
+  color: white;
+  font-size: 1.2rem!important;
+  font-weight: bold;
+}
+.domain-search-btn:hover
+{
+  background-color: #921597;
+ 
+  color: white;
+
+}
+/*Portfolio Section*/
+.portfolio-section
+{
+  margin-top: 70px;
+}
+
+.underline1 {
+    display: inline-block;
+    background-color: tomato;
+    height: 3px;
+    margin: 0 auto;
+   width: 25%;
+}
+
+.gallery-title
+{
+    
+    
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    text-align: center;
+    color: tomato;
+    margin-bottom: 30px;
+}
+.filter-button:
+{
+
+}
+.filter-button:hover
+{
+   color: white;
+   background-color: tomato;
+}
+
+ .filter-button:active
+{
+    background-color: white!important;
+    
+}
+
+.port-image
+{
+    width: 80%;
+}
+.protfolio-img-title
+{
+    position: absolute;
+    margin: 230px 0px 0px -35px;
+    font-size: 17px;
+    color: tomato;
+}
+.shadow-lg
+{
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.shadow-lg img:hover
+{
+   box-shadow: 0 .3rem .6rem .5rem rgba(255, 124, 50, 0.40)!important;
+}
+.border-4
+{
+    
+   
+   border-opacity: 0.3;
+   border: 5px solid  tomato;
+   
+}
+.brd-color-2
+{
+    border-color:  tomato !important;
+}
+.brd-color-3
+{
+    border-color:  tomato !important;
+}
+.brd-color-4
+{
+    border-color:tomato !important;
+}
+.brd-color-5
+{
+    border-color:  tomato !important;  
+
+}
+.brd-color-4
+{
+    border-color:tomato !important;
+}
+.gallery_product
+{
+   margin-bottom: 30px;
+    width: 365px;
+    overflow: visible;  
+}
+.title
+{
+
+    font-size: 1rem!important;
+}
+.gallery_product:hover
+{
+  cursor: pointer;
+}
+
+
+/*Portfolio*/
+/*Portfolio Section*/
+
+
+.about-section-team
+{
+   margin: 5px;
+   margin-top: 10px;
+   border: 2px solid white;
+   transition: border .7s;
+   transition-timing-function: ease;
+}
+.about-section-team:hover
+{
+  border: 2px solid tomato;
+  cursor: pointer;
+}
+.about-section-team:hover.about-section-team img
+{
+    width: 80%;
+}
+.about-section-team img
+{
+  border: 4px solid tomato;
+    width: 70%;
+    position: relative;
+    margin-top: -50px;
+    transition: width .7s;
+    transition-timing-function: ease;
+}
+.social
+{
+  color: tomato;
+}
+.social :hover
+{
+  color: #E75A41;
+  cursor: pointer;
+}
+
+/*BLOG SECTION*/
+.demo{background:#fff;}
+.post-slide2{margin:0 15px;box-shadow:0 1px 2px rgba(43,59,93,.3);margin-bottom:2em}
+.post-slide2 .post-img{overflow:hidden}
+.post-slide2 .post-img img{width:100%;height:auto;transform:scale(1);transition:all 1s ease-in-out 0s}
+.post-slide2:hover .post-img img{transform:scale(1.08)}
+.post-slide2 .post-content{background:#fff;padding:20px}
+.post-slide2 .post-title{font-size:17px;font-weight:600;margin-top:0;text-transform:capitalize}
+.post-slide2 .post-title a{display:inline-block;color:grey;transition:all .3s ease 0s}
+.post-slide2 .post-title a:hover{color:#3d3030;text-decoration:none}
+.post-slide2 .post-description{font-size:15px;color:#676767;line-height:24px;margin-bottom:14px}
+.post-slide2 .post-bar{padding:0;margin-bottom:15px;list-style:none}
+.post-slide2 .post-bar li{color:#676767;padding:2px 0}
+.post-slide2 .post-bar li i{margin-right:5px}
+.post-slide2 .post-bar li a{display:inline-block;font-size:12px;color:grey;transition:all .3s ease 0s}
+.post-slide2 .post-bar li a:after{content:","}
+.post-slide2 .post-bar li a:last-child:after{content:""}
+.post-slide2 .post-bar li a:hover{color:#3d3030;text-decoration:none}
+.post-slide2 .read-more{display:inline-block;padding:10px 15px;font-size:14px;font-weight:700;color:#fff;background:tomato;border-bottom-right-radius:10px;text-transform:capitalize;transition:all .3s linear}
+.post-slide2 .read-more:hover{background:#E75A41;text-decoration:none}
+/*BLOG SECTION*/
